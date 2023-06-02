@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-	color: #edae13;
+	color: crimson;
 }
 
 a:focus,
@@ -97,14 +97,14 @@ input[type="button"] {
 input[type="submit"]:hover,
 input[type="button"]:hover {
 	color: fff;
-	background: #edae13;
+	background: crimson;
 }
 
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	border: 1px solid #edae13
+	border: 1px solid crimson
 }
 
 input[type="text"],
@@ -458,12 +458,12 @@ label {
 }
 
 .bannerRight-btt1 a:hover {
-	background: #edae13;
+	background: crimson;
 }
 
 .bannerRight-btt2 a {
 	padding: 16px 44px;
-	background: #edae13;
+	background: crimson;
 }
 
 .bannerRight-btt2 a:hover {
@@ -631,7 +631,7 @@ label {
 }
 
 .daily-btt a.daily-btt1:hover {
-	background: #edae13;
+	background: crimson;
 }
 
 .daily-btt a.daily-btt2 {
@@ -789,7 +789,7 @@ label {
 	margin: 0;
 	font-family: 'ProximaNova-Semibold';
 	text-transform: uppercase;
-	background: #edae13;
+	background: crimson;
 	padding: 11px 22px;
 	line-height: 39px;
 	border-radius: 30px;
@@ -808,7 +808,7 @@ label {
 	margin: 0;
 	font-family: 'ProximaNova-Semibold';
 	text-transform: uppercase;
-	background: #edae13;
+	background: crimson;
 	padding: 11px 22px;
 	border-radius: 30px;
 	text-align: center;
@@ -1633,7 +1633,7 @@ h3.security_head,
 }
 
 .wheretobuy_wrap ul li:hover a {
-	color: #edae13;
+	color: crimson;
 	text-decoration: none;
 }
 
@@ -1682,7 +1682,7 @@ h3.security_head,
 
 .contentRight .affiliate-part h3 {
 	font-size: 22px;
-	color: #edae13;
+	color: crimson;
 }
 
 .contentRight .affiliate-part h4 {
@@ -1738,7 +1738,7 @@ h3.security_head,
 }
 
 .represtative_table td a.join_now:hover {
-	background: #edae13;
+	background: crimson;
 }
 
 .represtative_table td.header {
@@ -1897,7 +1897,7 @@ h3.security_head,
 	height: 46px;
 	font-size: 17px;
 	text-transform: uppercase;
-	background: #edae13;
+	background: crimson;
 }
 
 .form-container.login input[type="submit"]:hover,
@@ -1917,7 +1917,7 @@ h3.security_head,
 .form-container.forgot_pw input[type="text"] {
 	background: #fff;
 	color: #333;
-	border: 1px solid #edae13;
+	border: 1px solid crimson;
 	height: 46px;
 	padding-left: 60px;
 }
@@ -1988,7 +1988,7 @@ h3.security_head,
 .form-container.forgot_pw form a,
 .form-container.signuppage form a,
 .withdraw a {
-	color: #edae13;
+	color: crimson;
 	font-size: 12px;
 }
 
@@ -2033,7 +2033,7 @@ h3.security_head,
 	text-align: center;
 	font-size: 18px;
 	font-family: 'ProximaNova-Semibold';
-	color: #edae13
+	color: crimson
 }
 
 .wrapper-account {
@@ -2131,7 +2131,7 @@ h3.security_head,
 }
 
 .user_left h2 span {
-	color: #edae13;
+	color: crimson;
 }
 
 .affiliate_top {
@@ -2155,7 +2155,7 @@ h3.security_head,
 .affiliate_top a:hover {
 	text-decoration: none;
 	color: #fff;
-	background: #edae13;
+	background: crimson;
 }
 
 .get_banners {
@@ -2173,7 +2173,7 @@ h3.security_head,
 }
 
 .get_banners:hover {
-	background: #edae13;
+	background: crimson;
 
 }
 
@@ -2187,7 +2187,7 @@ h3.account_main {
 	margin: 15px 0 20px;
 	line-height: 50px;
 	font-size: 22px;
-	color: #edae13;
+	color: crimson;
 	font-family: 'ProximaNova-Semibold';
 	padding: 0 15px;
 }
@@ -2207,7 +2207,7 @@ h3.account_main {
 	width: 23%;
 	margin: 0 2% 0 0;
 	padding: 15px;
-	border: 1px solid #edae13;
+	border: 1px solid crimson;
 }
 
 .ctn-invesment-part a {
@@ -2264,7 +2264,7 @@ h3.account_main {
 
 .ctn-inves-row p {
 	font-size: 30px;
-	color: #edae13;
+	color: crimson;
 	text-align: right;
 	margin: 0;
 	line-height: 34px;
@@ -2331,7 +2331,7 @@ h3.account_main {
 }
 
 .ctn-daily .radio {
-	background-color: #edae13;
+	background-color: crimson;
 	float: right;
 	width: 140px;
 	color: white;
@@ -2352,7 +2352,7 @@ h3.account_main {
 }
 
 .dep_list {
-	background-color: #edae13;
+	background-color: crimson;
 	text-align: center;
 	padding: 8px 0px;
 	font-weight: normal;
@@ -2476,7 +2476,7 @@ td.inheader {
 
 .aff-banners ul li.active,
 .aff-banners ul li:hover {
-	background: #edae13
+	background: crimson
 }
 
 #show-hide-2 {
@@ -2485,8 +2485,8 @@ td.inheader {
 }
 
 .ref-link {
-	background: #edae13;
-	border: 1px solid #edae13;
+	background: crimson;
+	border: 1px solid crimson;
 
 }
 
@@ -2520,7 +2520,7 @@ td.inheader {
 }
 
 .btc_form a {
-	color: #EDAE13;
+	color: crimson;
 	margin-bottom: 0px;
 	font-size: 16px;
 	display: block;
@@ -2552,7 +2552,7 @@ td.inheader {
 .confirm-plan table td.plan-name {
 	font-family: 'ProximaNova-Semibold';
 	font-size: 18px;
-	color: #EDAE13;
+	color: crimson;
 }
 
 .confirm-plan table td {
@@ -2565,7 +2565,7 @@ td.inheader {
 }
 
 .confirm-plan .btn-warning {
-	background: #EDAE13;
+	background: crimson;
 	border-radius: 30px;
 	font-size: 16px;
 	padding: 6px 30px;

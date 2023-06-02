@@ -56,7 +56,7 @@
 .plans:focus  .plan_title,
 .plans:hover .plan_title {
     max-width: 255px;
-    background-color: #facd8a;
+    background-color: #0046d1;
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -82,7 +82,7 @@
     font-weight: 500;
     letter-spacing: -0.4px;
     text-align: center;
-    color: #facd8a;
+    color: #fff;
     margin: 12px 0;
 }
 
@@ -232,15 +232,15 @@ background: #000; margin: 0px 0px; color: #e0dede; text-align: left; text-align:
 .plans:focus .btnplan.btn-deposit, 
 .plans:hover .btnplan.btn-deposit {
     color: #000;
-    background-color: #facd8a;
-    border-color: #facd8a;
+    background-color: #0046d1;
+    border-color: #0046d1;
 }
 
 
 .selexty .btnplan.btn-deposit {
     color: #000;
-    background-color: #facd8a;
-    border-color: #facd8a;
+    background-color: #0046d1;
+    border-color: #0046d1;
 }
 
 .selexty .plan_details.text-center {
@@ -252,13 +252,13 @@ background: #000; margin: 0px 0px; color: #e0dede; text-align: left; text-align:
 
 .selexty .plan_title {
     max-width: 255px;
-    background-color: #facd8a;
+    background-color: #0046d1;
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 76px;
     text-align: center;
-    color: #000;
+    color: #fff;
 }
 
 .selexty .percentage{
@@ -267,7 +267,7 @@ background: #000; margin: 0px 0px; color: #e0dede; text-align: left; text-align:
     font-weight: 500;
     letter-spacing: -0.4px;
     text-align: center;
-    color: #facd8a;
+    color: #fff;
     margin: 12px 0;
 }
 
