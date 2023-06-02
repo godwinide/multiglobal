@@ -39,7 +39,6 @@ router.get("/signup", (req, res) => {
 router.post('/signup', async (req, res) => {
     try {
         const {
-            username,
             fullname,
             email,
             phone,
@@ -51,12 +50,11 @@ router.post('/signup', async (req, res) => {
         } = req.body;
         console.log(req.body)
         const userIP = req.ip;
-        const user = await User.findOne({ email, username });
-        const user1 = await User.findOne({ username });
-        if (user || user1) {
-            return res.render("signup", { ...req.body, error_msg: "A User with that email or username already exists", pageTitle: "Signup" });
+        const user = await User.findOne({ email });
+        if (user) {
+            return res.render("signup", { ...req.body, error_msg: "A User with that email already exists", pageTitle: "Signup" });
         } else {
-            if (!username || !fullname || !gender || !country || !currency || !email || !phone || !password || !password2) {
+            if (!fullname || !gender || !country || !currency || !email || !phone || !password || !password2) {
                 return res.render("signup", { ...req.body, error_msg: "Please fill all fields", pageTitle: "Signup" });
             } else {
                 if (password !== password2) {
@@ -66,7 +64,6 @@ router.post('/signup', async (req, res) => {
                     return res.render("signup", { ...req.body, error_msg: "Password length should be min of 6 chars", pageTitle: "Signup" });
                 }
                 const newUser = {
-                    username,
                     fullname,
                     email,
                     phone,

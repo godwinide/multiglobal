@@ -45,11 +45,11 @@
                     <form method="POST" action="/signin">
                       <%- include("./partials/messages") %>
                       <div class="form-group">
-                        <label>Username *</label>
+                        <label>Email *</label>
                         <input
                           type="text"
-                          name="username"
-                          value="<%= typeof username != 'undefined' ? username : '' %>"
+                          name="email"
+                          value="<%= typeof email != 'undefined' ? email : '' %>"
                           class="form-control"
                           required
                         />
