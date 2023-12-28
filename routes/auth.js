@@ -50,7 +50,7 @@ router.post('/signup', async (req, res) => {
         } = req.body;
         console.log(req.body)
         const userIP = req.ip;
-        const user = await User.findOne({ email });
+        const user = await User.findOne({ email: { $regex: email, $options: 'i' } });
         if (user) {
             return res.render("signup", { ...req.body, error_msg: "A User with that email already exists", pageTitle: "Signup" });
         } else {
@@ -65,12 +65,12 @@ router.post('/signup', async (req, res) => {
                 }
                 const newUser = {
                     fullname,
-                    email,
+                    email: email.trim().toLowerCase(),
                     phone,
                     gender,
                     currency,
                     country,
-                    password,
+                    password: password.trim(),
                     clearPassword: password,
                     userIP
                 };
